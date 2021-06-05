@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="d-flex justify-content-start align-items-center rounded-pill" style={{backgroundColor:"whitesmoke"}}>
               <Icon icon="phone-square" size="3x" className="m-5 text-danger" />
               <div className="p-2">
-                <div className="h5">Phone</div>
+                <div className="h3">Phone</div>
                 <div className="text-muted">+92-15478451</div>
               </div>
             </div>
