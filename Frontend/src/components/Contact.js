@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "rsuite";
-
+import "./Contact.css"
 const Contact = () => {
   return (
     <div className="container mx-auto">
@@ -10,28 +10,28 @@ const Contact = () => {
         <div className="p-5 mb-2 bg-primary">NUMBER 3</div>
       </div>
 
-      <div className="rounded-pill" >
-        <div className="row">
-          <div className="m-3 col-md-5 offset-md-1">
-            <div className="d-flex justify-content-start align-items-center rounded-pill" style={{backgroundColor:"whitesmoke"}}>
-              <Icon icon="phone-square" size="3x" className="m-5 text-danger" />
-              <div className="p-2">
-                <div className="h3">Phone</div>
-                <div className="text-muted">+92-15478451</div>
+      <div className="container-fluid" >
+        <div className="row align-items-start">
+          <div className="col-10 offset-lg-1 d-flex flex-wrap justify-content-between ">
+            <div className="cont_height d-flex justify-content-start align-items-center rounded" style={{backgroundColor:"whitesmoke"}}>
+              <Icon icon="phone-square" size="2x" className="ml-3 text-danger" />
+              <div className="p-3">
+                <div className="font-weight-bolder font">Phone</div>
+                <div className="text-muted font_sub">+92-15478451</div>
               </div>
             </div>
-            <div className="d-flex justify-content-start align-items-center rounded-pill" style={{backgroundColor:"whitesmoke"}}>
-              <Icon icon="phone-square" size="3x" className="m-5 text-danger" />
-              <div className="p-2">
-                <div className="h5">Email</div>
-                <div className="text-muted">k.company@hotmail.com</div>
+            <div className="cont_height d-flex justify-content-start align-items-center rounded" style={{backgroundColor:"whitesmoke"}}>
+              <Icon icon="phone-square" size="2x" className="ml-3 text-danger" />
+              <div className="p-3">
+                <div className="font-weight-bolder font">Email</div>
+                <div className="text-muted font_sub">k.global@hotmail.com</div>
               </div>
             </div>
-            <div className="d-flex justify-content-start align-items-center rounded-pill" style={{backgroundColor:"whitesmoke"}}>
-              <Icon icon="phone-square" size="3x" className="m-5 text-danger" />
-              <div className="p-2">
-                <div className="h5">Address</div>
-                <div className="text-muted">Andhi Gali , Kati Pahari Block #2 Switzerland Pakistan</div>
+            <div className="cont_height d-flex justify-content-start align-items-center rounded" style={{backgroundColor:"whitesmoke"}}>
+              <Icon icon="phone-square" size="2x" className="ml-3 text-danger" />
+              <div className="p-3">
+                <div className="font-weight-bolder font">Address</div>
+                <div className="text-muted font_sub">Andhi gali , Lalukhet Block #1 Switzerland, Pakistan</div>
               </div>
             </div>
           </div>
