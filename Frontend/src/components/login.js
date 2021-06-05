@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
+import { Button, Form } from "react-bootstrap";
 
 const login = () => {
   // const [name, useName] = useState("");
@@ -6,29 +7,37 @@ const login = () => {
   // const [passwd, usePasswd] = useState("");
 
   return (
-    <div className="login">
-      <form className="login__form">
-        <h1>Login here 💖</h1>
-        <input
-          type="name"
-          placeholder="your name"
-          // value={name}
-// ?          onChange={(e) => useName(e.target.value)}
-        ></input>
-        <input
-          type="email"
-          placeholder="your email"
-          // value={email}
-          // onChange={(e) => useEmail(e.target.value)}
-        ></input>
-        <input
-          type="password"
-          placeholder="your paswd"
-          // value={passwd}
-          // onChange={(e) => usePasswd(e.target.value)}
-        ></input>
-        <button type="submit" className="button_login">submit</button>
-      </form>
+    <div className="container">
+      <Form>
+        <Form.Group className="mb-3 mt-4" controlId="formBasicEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control
+            name="email"
+            id="email"
+            autoComplete="off"
+            placeholder="Enter email"
+            type="email"
+          />
+   
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control
+            type="password"
+            name="password"
+            id="password"
+            autoComplete="off"
+            placeholder="Password"
+          />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+          <Form.Check type="checkbox" label="Check me out" />
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form>
     </div>
   );
 };

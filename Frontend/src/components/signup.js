@@ -5,7 +5,7 @@ const signup = () => {
   return (
     <div className="container ">
       <section className="">
-        <Form className="container m-10" style={{ margin: "10" }}>
+        <Form className="container ">
           <Form.Group className="mt-4 mb-3 " controlId="formBasicEmail">
             <Form.Label>Name :</Form.Label>
             <Form.Control
@@ -38,16 +38,35 @@ const signup = () => {
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>Password</Form.Label>
-            <Form.Control type="password" name="password" id="password" autoComplete="off" placeholder="Password" />
+            <Form.Control
+              type="password"
+              name="password"
+              id="password"
+              autoComplete="off"
+              placeholder="Password"
+            />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>Confirm Password</Form.Label>
-            <Form.Control type="password"  name="cpassword" id="cpassword" autoComplete="off" placeholder="Confirm Password" />
+            <Form.Control
+              type="password"
+              name="cpassword"
+              id="cpassword"
+              autoComplete="off"
+              placeholder="Confirm Password"
+            />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
-          <Button className="form-submit" variant="primary" name="signup" id="signup" value="register" type="submit">
+          <Button
+            className="form-submit"
+            variant="primary"
+            name="signup"
+            id="signup"
+            value="register"
+            type="submit"
+          >
             Submit
           </Button>
         </Form>
