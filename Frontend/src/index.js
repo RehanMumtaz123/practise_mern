@@ -3,4 +3,9 @@ import reactDom from "react-dom";
 import App from "./app";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-reactDom.render(<App />, document.getElementById("root"));
+reactDom.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
