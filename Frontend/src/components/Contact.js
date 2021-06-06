@@ -12,7 +12,7 @@ const Contact = () => {
 
       <div className="container" >
         <div className="row">
-          <div className="col-lg-12 d-flex flex-wrap justify-content-between ">
+          <div className="col-lg-12 d-flex flex-wrap justify-content-between mb-2">
             <div className="cont_height d-flex justify-content-start align-items-center rounded" style={{backgroundColor:"whitesmoke"}}>
               <Icon icon="phone-square" size="2x" className="ml-3 text-danger" />
               <div className="p-3">
