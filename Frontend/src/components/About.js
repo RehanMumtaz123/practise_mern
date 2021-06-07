@@ -73,17 +73,32 @@ const About = () => {
                           <label> User ID</label>
                         </div>
                         <div className="col-md-6">
-                          <p >385434798</p>
+                          <p>385434798</p>
                         </div>
+                      </div>
                       <div className="row text-primary mt-3">
                         <div className="col-md-6">
                           <label> Name</label>
                         </div>
                         <div className="col-md-6">
-                          <p >YoYo</p>
+                          <p>YoYo</p>
                         </div>
-                        <div className="col-md-6"></div>
-                        <div className="col-md-6"></div>
+                      </div>
+                      <div className="row text-primary mt-3">
+                        <div className="col-md-6">
+                          <label> Phone Number</label>
+                        </div>
+                        <div className="col-md-6">
+                          <p>03218547841</p>
+                        </div>
+                      </div>
+                      <div className="row text-primary mt-3">
+                        <div className="col-md-6">
+                          <label> Email:</label>
+                        </div>
+                        <div className="col-md-6">
+                          <p>k.company@global.com</p>
+                        </div>
                       </div>
                     </div>
                   </div>
