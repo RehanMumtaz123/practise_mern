@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Login from "./components/login";
 import Signup from "./components/signup";
+import Error from "./components/error";
 function App() {
   return (
     <>
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login />
+            </Route>
+            <Route >
+              <Error />
             </Route>
           </Switch>
           <Footer />

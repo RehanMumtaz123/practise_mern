@@ -1,7 +1,7 @@
 const mongo = require("mongoose");
 const bcrypt = require("bcryptjs");
 const jwt= require("jsonwebtoken");
-const { JsonWebTokenError } = require("jsonwebtoken");
+// const { JsonWebTokenError } = require("jsonwebtoken");
 
 const userSchema = new mongo.Schema({
   name: {
