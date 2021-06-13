@@ -14,7 +14,7 @@ const navbar = () => {
     <>
       <Navbar bg="dark" className="d-flex" expand="lg">
         <Navbar.Brand href="#home" className="p-3 text-light my-2 flex-grow-1">
-          React-Bootstrap
+          Commerce Web
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
